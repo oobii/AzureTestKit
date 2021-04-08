@@ -4,3 +4,6 @@ git clone https://github.com/Azure/arm-ttk.git
 Import-Module /Users/martynov/code-local/azure/arm-ttk/arm-ttk/arm-ttk.psd1
 cd ./AzureTestKit/
 Test-AzTemplate -TemplatePath .
+
+vi  /Users/martynov/code-local/azure/arm-ttk/arm-ttk/testcases/deploymentTemplate/Custom-ParameterNaming.test.ps1                                      
+Test-AzTemplate -TemplatePath . -Test "Custom-ParameterNaming"
